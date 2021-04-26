@@ -1,0 +1,6 @@
+framework module Pods_RatesConverterMVVM {
+  umbrella header "Pods-RatesConverterMVVM-umbrella.h"
+
+  export *
+  module * { export * }
+}
