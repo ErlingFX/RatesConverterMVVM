@@ -8,7 +8,6 @@
 protocol MainViewModelProtocol: class {
     var view: MainViewProtocol! { get set }
     
-    
     func tappedOkButton(_ usd: String?)
 }
 
@@ -44,3 +43,4 @@ class MainViewModel: MainViewModelProtocol {
         }
     }
 }
+

@@ -9,9 +9,6 @@ import Foundation
 import Alamofire
 
 
-
-
-
 class NetworkService {
     
     static let shared: NetworkService! = NetworkService()

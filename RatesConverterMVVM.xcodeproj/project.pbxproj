@@ -17,7 +17,7 @@
 		350561322636BBD500B2B5C8 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350561312636BBD500B2B5C8 /* MainModel.swift */; };
 		350561352636BC3D00B2B5C8 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350561342636BC3D00B2B5C8 /* MainViewModel.swift */; };
 		3505613E2636C0EC00B2B5C8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3505613D2636C0EC00B2B5C8 /* NetworkService.swift */; };
-		35C1884A2636ECDF008820E5 /* NetworkDownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C188492636ECDE008820E5 /* NetworkDownloadImage.swift */; };
+		35C1884F2636F5E5008820E5 /* NetworkDownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C1884E2636F5E5008820E5 /* NetworkDownloadImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		350561312636BBD500B2B5C8 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
 		350561342636BC3D00B2B5C8 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		3505613D2636C0EC00B2B5C8 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
-		35C188492636ECDE008820E5 /* NetworkDownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDownloadImage.swift; sourceTree = "<group>"; };
+		35C1884E2636F5E5008820E5 /* NetworkDownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDownloadImage.swift; sourceTree = "<group>"; };
 		77E5A357BBF31B6BE45B1A74 /* Pods-RatesConverterMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatesConverterMVVM.release.xcconfig"; path = "Target Support Files/Pods-RatesConverterMVVM/Pods-RatesConverterMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		A1571E3C204763DDB6693078 /* Pods_RatesConverterMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RatesConverterMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -79,8 +79,8 @@
 		350561122636BA5300B2B5C8 /* RatesConverterMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				350561372636C0B100B2B5C8 /* Service */,
 				3505612A2636BB5000B2B5C8 /* MainViewModel */,
+				350561372636C0B100B2B5C8 /* Service */,
 				350561292636BB1A00B2B5C8 /* Common */,
 				350561282636BAEC00B2B5C8 /* Storyboard */,
 				350561212636BA5A00B2B5C8 /* Info.plist */,
@@ -145,7 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				3505613D2636C0EC00B2B5C8 /* NetworkService.swift */,
-				35C188492636ECDE008820E5 /* NetworkDownloadImage.swift */,
+				35C1884E2636F5E5008820E5 /* NetworkDownloadImage.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -276,7 +276,7 @@
 				350561352636BC3D00B2B5C8 /* MainViewModel.swift in Sources */,
 				350561322636BBD500B2B5C8 /* MainModel.swift in Sources */,
 				350561182636BA5300B2B5C8 /* MainViewController.swift in Sources */,
-				35C1884A2636ECDF008820E5 /* NetworkDownloadImage.swift in Sources */,
+				35C1884F2636F5E5008820E5 /* NetworkDownloadImage.swift in Sources */,
 				350561142636BA5300B2B5C8 /* AppDelegate.swift in Sources */,
 				3505613E2636C0EC00B2B5C8 /* NetworkService.swift in Sources */,
 				350561162636BA5300B2B5C8 /* SceneDelegate.swift in Sources */,

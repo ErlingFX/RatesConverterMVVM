@@ -8,7 +8,7 @@
 import Foundation
 import Kingfisher
 
-
-
-let url = URL(string: "https://example.com/image.png")
-imageView.kf.setImage(with: url)
+class NetworkImageDownload {
+   
+    
+}
